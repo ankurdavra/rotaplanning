@@ -9,10 +9,10 @@ use App\Entity\staff;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class ProductController extends AbstractController
+class RotaAddController extends AbstractController
 {
     /**
-     * @Route("/rotas", name="rota")
+     * @Route("/addRota", name="rota")
      */
     public function index(): Response
     {
